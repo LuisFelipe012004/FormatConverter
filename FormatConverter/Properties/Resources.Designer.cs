@@ -63,6 +63,16 @@ namespace FormatConverter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Chevron_Down {
+            get {
+                object obj = ResourceManager.GetObject("Chevron Down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sorting_Arrows_Horizontal3 {
             get {
                 object obj = ResourceManager.GetObject("Sorting Arrows Horizontal3", resourceCulture);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.navPanel = new System.Windows.Forms.Panel();
             this.btnMinimize = new System.Windows.Forms.Button();
             this.linkGit = new System.Windows.Forms.LinkLabel();
@@ -36,7 +35,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button1 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnSelectF = new System.Windows.Forms.Button();
             this.btnSwap = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.navPanel.SuspendLayout();
@@ -50,7 +49,7 @@
             this.navPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.navPanel.Location = new System.Drawing.Point(0, 0);
             this.navPanel.Name = "navPanel";
-            this.navPanel.Size = new System.Drawing.Size(651, 42);
+            this.navPanel.Size = new System.Drawing.Size(598, 42);
             this.navPanel.TabIndex = 0;
             // 
             // btnMinimize
@@ -60,7 +59,7 @@
             this.btnMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimize.Font = new System.Drawing.Font("Mongolian Baiti", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btnMinimize.ForeColor = System.Drawing.Color.White;
-            this.btnMinimize.Location = new System.Drawing.Point(565, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(512, 0);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(43, 42);
             this.btnMinimize.TabIndex = 1;
@@ -77,7 +76,7 @@
             this.linkGit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkGit.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkGit.LinkColor = System.Drawing.Color.Transparent;
-            this.linkGit.Location = new System.Drawing.Point(482, 0);
+            this.linkGit.Location = new System.Drawing.Point(429, 0);
             this.linkGit.Name = "linkGit";
             this.linkGit.Size = new System.Drawing.Size(169, 19);
             this.linkGit.TabIndex = 1;
@@ -93,7 +92,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 359);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(651, 19);
+            this.panel1.Size = new System.Drawing.Size(598, 19);
             this.panel1.TabIndex = 2;
             // 
             // button1
@@ -101,7 +100,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("RocknRoll One", 9.75F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(114, 160);
+            this.button1.Location = new System.Drawing.Point(90, 160);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(123, 62);
             this.button1.TabIndex = 3;
@@ -117,7 +116,7 @@
             this.linkLabel1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
             this.linkLabel1.LinkColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Location = new System.Drawing.Point(271, 225);
+            this.linkLabel1.Location = new System.Drawing.Point(247, 225);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(93, 11);
             this.linkLabel1.TabIndex = 2;
@@ -126,19 +125,19 @@
             this.linkLabel1.Text = "Click here to convert!";
             this.linkLabel1.VisitedLinkColor = System.Drawing.Color.Transparent;
             // 
-            // button2
+            // btnSelectF
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("RocknRoll One", 9.75F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(392, 160);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 62);
-            this.button2.TabIndex = 5;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnSelectF.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSelectF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelectF.Font = new System.Drawing.Font("RocknRoll One", 9.75F);
+            this.btnSelectF.ForeColor = System.Drawing.Color.White;
+            this.btnSelectF.Image = global::FormatConverter.Properties.Resources.Chevron_Down;
+            this.btnSelectF.Location = new System.Drawing.Point(368, 160);
+            this.btnSelectF.Name = "btnSelectF";
+            this.btnSelectF.Size = new System.Drawing.Size(123, 62);
+            this.btnSelectF.TabIndex = 5;
+            this.btnSelectF.UseVisualStyleBackColor = true;
+            this.btnSelectF.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnSwap
             // 
@@ -148,11 +147,12 @@
             this.btnSwap.Font = new System.Drawing.Font("RocknRoll One", 9.75F);
             this.btnSwap.ForeColor = System.Drawing.Color.White;
             this.btnSwap.Image = global::FormatConverter.Properties.Resources.Sorting_Arrows_Horizontal3;
-            this.btnSwap.Location = new System.Drawing.Point(253, 160);
+            this.btnSwap.Location = new System.Drawing.Point(229, 160);
             this.btnSwap.Name = "btnSwap";
             this.btnSwap.Size = new System.Drawing.Size(123, 62);
             this.btnSwap.TabIndex = 4;
             this.btnSwap.UseVisualStyleBackColor = true;
+            this.btnSwap.Click += new System.EventHandler(this.btnSwap_Click);
             // 
             // btnClose
             // 
@@ -161,7 +161,7 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.Image = global::FormatConverter.Properties.Resources.x2;
-            this.btnClose.Location = new System.Drawing.Point(608, 0);
+            this.btnClose.Location = new System.Drawing.Point(555, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(43, 42);
             this.btnClose.TabIndex = 0;
@@ -174,9 +174,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(23)))));
-            this.ClientSize = new System.Drawing.Size(651, 378);
+            this.ClientSize = new System.Drawing.Size(598, 378);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnSelectF);
             this.Controls.Add(this.btnSwap);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
@@ -204,7 +204,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnSwap;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnSelectF;
         private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

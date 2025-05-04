@@ -35,7 +35,7 @@ namespace FormatConverter
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)//botão de carregar o arquivo que vai ser formatado
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -52,10 +52,16 @@ namespace FormatConverter
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void btnSwap_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void button2_Click(object sender, EventArgs e)//botão de selecionar o formato
         {
             SelectFormat selectFormat = new SelectFormat();
             selectFormat.Show();
+            
         }
     }
 }

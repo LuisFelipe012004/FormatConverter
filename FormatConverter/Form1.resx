@@ -120,16 +120,4 @@
   <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>21, 19</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAASBJREFUSEvt
-        0rsuRFEUBuAhGiQiEZ1EqVR6iyk0CsSbuISOXiFRaFCrtRQ8gkLi8gYulU9Wco6crMzlzGQo5HzVyd7/
-        +lcye1qtRqPxb2ALC/l8VLAYO/J5XFziHfuYyvfDii4c4APn+b5cXHrBJsZyrq6YLX7F6Cr1XVy6x0rO
-        9hMzxWzWcfFpTlVc1Hn/yBTZbk7yTAxN4yonK+L9dzu9f/GOe0Wmm+iezLM/sIOvPFXxhPUiG++4gecc
-        qoiu7bynI7TxlhuSG9zlwyQ62rm/JyzhMTcN4CE6cm8tmMV1bqwhZmZy30AwjqPc3MNhzOSeoWENn3lL
-        Rdyt5rmRwDJe88bin76c8yOFedxWlsb3XM79CkzgDMfxne8bjcaf+gawi94mOib0LQAAAABJRU5ErkJg
-        gg==
-</value>
-  </data>
 </root>
