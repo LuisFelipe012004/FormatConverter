@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FormatConverter.Class;
+using ImageMagick;
 
 namespace FormatConverter
 {
-    public partial class MainForm: Form
+    public partial class MainForm : Form
     {
+
+        public string conversionType { get; set; } = null;
         public MainForm()
         {
             InitializeComponent();
@@ -35,7 +39,7 @@ namespace FormatConverter
 
         }
 
-        private void button1_Click(object sender, EventArgs e)//botão de carregar o arquivo que vai ser formatado
+        private void button1_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -52,14 +56,35 @@ namespace FormatConverter
             }
         }
 
-
         private void btnSwap_Click(object sender, EventArgs e)
         {
+           try
+            {
+                swap Swap = new swap();               
 
+                using (SaveFileDialog saveFileDialog = new SaveFileDialog()) {
+                saveFileDialog.Filter = $"Salvar como (*.{conversionType};|*.{conversionType};";
+                saveFileDialog.DefaultExt = $"*.{conversionType}";
+
+                if(saveFileDialog.ShowDialog() == DialogResult.OK) { 
+                Swap.ConvertFile(
+                inputPath: openFileDialog1.FileName,
+                outputPath: $"{saveFileDialog.FileName}",
+                outputFormat: MagickFormat.Png                
+                ); 
+              }
+                
+             }
+               
+            }
+            catch ( Exception ex ) 
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
-        private void button2_Click(object sender, EventArgs e)//botão de selecionar o formato
+        private void button2_Click(object sender, EventArgs e)
         {
-            SelectFormat selectFormat = new SelectFormat();
+            SelectFormat selectFormat = new SelectFormat(this);
             selectFormat.Show();
             
         }

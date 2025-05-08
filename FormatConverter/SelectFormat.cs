@@ -8,15 +8,19 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FormatConverter.Class;
+
 
 namespace FormatConverter
 {
     public partial class SelectFormat: Form
     {
-        public SelectFormat()
+        private MainForm _mainForm;
+        public SelectFormat(MainForm mainForm)
         {
             InitializeComponent();
             searchTBox.Text = placeholderText;
+            _mainForm = mainForm;
         }
 
         string placeholderText = "Search...";
@@ -97,10 +101,14 @@ namespace FormatConverter
         {
 
         }
+       
 
         private void PNG_Click(object sender, EventArgs e)
         {
-
+            _mainForm.conversionType = "png";
+            this.Hide();
         }
+
+
     }
 }
