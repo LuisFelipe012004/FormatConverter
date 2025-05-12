@@ -17,40 +17,40 @@ namespace FormatConverter.Class
         {
             try
             {
-                // Verifica se o arquivo de entrada existe
+                //Verify if the input file exists
                 if (!File.Exists(inputPath))
-                    throw new FileNotFoundException("Arquivo de entrada não encontrado!", inputPath);
+                    throw new FileNotFoundException("Input file not founded!", inputPath);
 
-                // Garante que o diretório de saída existe
+                // Get the output directory
                 Directory.CreateDirectory(Path.GetDirectoryName(outputPath));
 
-                // Configurações de conversão (opcional)
+                // Read settings for the input file
                 var settings = new MagickReadSettings
                 {
-                    Density = new Density(300, 300),  // DPI para PDF/SVG
-                    BackgroundColor = MagickColors.White  // Fundo para formatos com transparência
+                    Density = new Density(300, 300),  // DPI to PDF/SVG
+                    BackgroundColor = MagickColors.White  // Background color for PDF/SVG
                 };
 
-                // Carrega o arquivo (suporta 100+ formatos)
+                // Load the input file with settings
                 using (var image = new MagickImage(inputPath, settings))
                 {
-                    // Aplica otimizações (opcional)
+                    // Apply transformations if needed
                     image.Quality = 90;  // Qualidade para JPEG/WebP
                     image.Format = outputFormat;
 
-                    // Salva o arquivo convertido
+                    // Save the output file
                     image.Write(outputPath);
                 }
                 
                 
                 
 
-                MessageBox.Show($"✅ Conversão concluída: {Path.GetFileName(inputPath)} -> {outputPath}");
+                MessageBox.Show($"✅ File converted successfully \n {Path.GetFileName(inputPath)} -> {outputPath}");
                 return true;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"❌ Erro ao converter {inputPath}: {ex.Message}");
+                Console.WriteLine($"❌ Error converting {inputPath}: {ex.Message}");
                 return false;
             }
         }

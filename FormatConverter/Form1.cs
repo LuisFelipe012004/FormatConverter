@@ -35,8 +35,6 @@ namespace FormatConverter
         private void linkGit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/LuisFelipe012004");
-
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -45,39 +43,42 @@ namespace FormatConverter
             {
                 string filePath = openFileDialog1.FileName;
                 string fileExtension = System.IO.Path.GetExtension(filePath).ToLower();
+
+                label2.Text = filePath;
                 try
                 {
                     string[] lines = System.IO.File.ReadAllLines(filePath);
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Erro ao ler o arquivo: {ex.Message}", "Erro");
+                    MessageBox.Show($"Error to read the file: {ex.Message}", "Error");
                 }
             }
         }
 
         private void btnSwap_Click(object sender, EventArgs e)
         {
-           try
+            try
             {
-                swap Swap = new swap();               
+                swap Swap = new swap();
+                Converter converter = new Converter();
 
-                using (SaveFileDialog saveFileDialog = new SaveFileDialog()) {
-                saveFileDialog.Filter = $"Salvar como (*.{conversionType};|*.{conversionType};";
-                saveFileDialog.DefaultExt = $"*.{conversionType}";
+                using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+                {
+                    saveFileDialog.Filter = $"Save as (*.{conversionType};|*.{conversionType};";
+                    saveFileDialog.DefaultExt = $"*.{conversionType}";
 
-                if(saveFileDialog.ShowDialog() == DialogResult.OK) { 
-                Swap.ConvertFile(
-                inputPath: openFileDialog1.FileName,
-                outputPath: $"{saveFileDialog.FileName}",
-                outputFormat: MagickFormat.Png                
-                ); 
-              }
-                
-             }
-               
+                    if (openFileDialog1.FileName != null && conversionType != null)
+                    {
+                        converter.Convert(conversionType, openFileDialog1, saveFileDialog);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please select a file and conversion type before proceeding.", "Error");
+                    }
+                }
             }
-            catch ( Exception ex ) 
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -86,7 +87,31 @@ namespace FormatConverter
         {
             SelectFormat selectFormat = new SelectFormat(this);
             selectFormat.Show();
-            
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public void label1_TextChanged(object sender, EventArgs e)
+        {
+            label1.Text = $"*.{conversionType}";
+        }
+
+        public void label2_TextChanged(object sender, EventArgs e)
+        {            
+         
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

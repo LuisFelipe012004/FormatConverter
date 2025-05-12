@@ -29,86 +29,70 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnImage = new System.Windows.Forms.Button();
-            this.btnDocument = new System.Windows.Forms.Button();
-            this.btnEbook = new System.Windows.Forms.Button();
-            this.btnVideo = new System.Windows.Forms.Button();
-            this.btnVector = new System.Windows.Forms.Button();
-            this.btnAudio = new System.Windows.Forms.Button();
-            this.searchTBox = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.imageTablePanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.button74 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.PNG = new System.Windows.Forms.Button();
-            this.btnCloseSF = new System.Windows.Forms.Button();
+            this.JPG = new System.Windows.Forms.Button();
+            this.PSD = new System.Windows.Forms.Button();
+            this.SVG = new System.Windows.Forms.Button();
+            this.PALM = new System.Windows.Forms.Button();
+            this.MTV = new System.Windows.Forms.Button();
+            this.PAM = new System.Windows.Forms.Button();
+            this.OTB = new System.Windows.Forms.Button();
+            this.HRZ = new System.Windows.Forms.Button();
+            this.IPL = new System.Windows.Forms.Button();
+            this.SUN = new System.Windows.Forms.Button();
+            this.UYVY = new System.Windows.Forms.Button();
+            this.XV = new System.Windows.Forms.Button();
+            this.FTS = new System.Windows.Forms.Button();
+            this.G4 = new System.Windows.Forms.Button();
+            this.PCT = new System.Windows.Forms.Button();
+            this.FAX = new System.Windows.Forms.Button();
+            this.SIX = new System.Windows.Forms.Button();
+            this.RGBO = new System.Windows.Forms.Button();
+            this.VIPS = new System.Windows.Forms.Button();
+            this.JPS = new System.Windows.Forms.Button();
+            this.VIFF = new System.Windows.Forms.Button();
+            this.PFM = new System.Windows.Forms.Button();
+            this.SGI = new System.Windows.Forms.Button();
+            this.MNG = new System.Windows.Forms.Button();
+            this.RGF = new System.Windows.Forms.Button();
+            this.PICT = new System.Windows.Forms.Button();
+            this.PGX = new System.Windows.Forms.Button();
+            this.YUV = new System.Windows.Forms.Button();
+            this.PAL = new System.Windows.Forms.Button();
+            this.PCD = new System.Windows.Forms.Button();
+            this.SIXEL = new System.Windows.Forms.Button();
+            this.RAS = new System.Windows.Forms.Button();
+            this.G3 = new System.Windows.Forms.Button();
+            this.JPE = new System.Windows.Forms.Button();
+            this.PICON = new System.Windows.Forms.Button();
+            this.PBM = new System.Windows.Forms.Button();
+            this.PDB = new System.Windows.Forms.Button();
+            this.JP2 = new System.Windows.Forms.Button();
+            this.PNM = new System.Windows.Forms.Button();
+            this.MAP = new System.Windows.Forms.Button();
+            this.HEIF = new System.Windows.Forms.Button();
+            this.XBM = new System.Windows.Forms.Button();
+            this.RGBA = new System.Windows.Forms.Button();
+            this.WBMP = new System.Windows.Forms.Button();
+            this.PCX = new System.Windows.Forms.Button();
+            this.PPM = new System.Windows.Forms.Button();
+            this.AVIFF = new System.Windows.Forms.Button();
+            this.BPM = new System.Windows.Forms.Button();
+            this.PGM = new System.Windows.Forms.Button();
+            this.TGA = new System.Windows.Forms.Button();
+            this.DDS = new System.Windows.Forms.Button();
+            this.EXR = new System.Windows.Forms.Button();
+            this.TIFF = new System.Windows.Forms.Button();
+            this.XPM = new System.Windows.Forms.Button();
+            this.GIF = new System.Windows.Forms.Button();
+            this.WEBP = new System.Windows.Forms.Button();
+            this.RGB = new System.Windows.Forms.Button();
+            this.CUR = new System.Windows.Forms.Button();
+            this.HEIC = new System.Windows.Forms.Button();
+            this.HDR = new System.Windows.Forms.Button();
+            this.ICO = new System.Windows.Forms.Button();
             this.documentTablePanel = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -149,13 +133,22 @@
             this.button104 = new System.Windows.Forms.Button();
             this.button105 = new System.Windows.Forms.Button();
             this.button106 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnImage = new System.Windows.Forms.Button();
+            this.btnDocument = new System.Windows.Forms.Button();
+            this.btnEbook = new System.Windows.Forms.Button();
+            this.btnVideo = new System.Windows.Forms.Button();
+            this.btnVector = new System.Windows.Forms.Button();
+            this.btnAudio = new System.Windows.Forms.Button();
+            this.btnCloseSF = new System.Windows.Forms.Button();
+            this.searchTBox = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.imageTablePanel.SuspendLayout();
             this.documentTablePanel.SuspendLayout();
             this.ebookTablePanel.SuspendLayout();
             this.vectorTablePanel.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -169,106 +162,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(577, 499);
             this.panel1.TabIndex = 0;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.Controls.Add(this.btnImage);
-            this.flowLayoutPanel1.Controls.Add(this.btnDocument);
-            this.flowLayoutPanel1.Controls.Add(this.btnEbook);
-            this.flowLayoutPanel1.Controls.Add(this.btnVideo);
-            this.flowLayoutPanel1.Controls.Add(this.btnVector);
-            this.flowLayoutPanel1.Controls.Add(this.btnAudio);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.flowLayoutPanel1.ForeColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 23);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(149, 476);
-            this.flowLayoutPanel1.TabIndex = 3;
-            // 
-            // btnImage
-            // 
-            this.btnImage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImage.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImage.Location = new System.Drawing.Point(3, 33);
-            this.btnImage.Name = "btnImage";
-            this.btnImage.Size = new System.Drawing.Size(146, 23);
-            this.btnImage.TabIndex = 0;
-            this.btnImage.Text = "Image";
-            this.btnImage.UseVisualStyleBackColor = true;
-            this.btnImage.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnDocument
-            // 
-            this.btnDocument.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDocument.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
-            this.btnDocument.Location = new System.Drawing.Point(3, 62);
-            this.btnDocument.Name = "btnDocument";
-            this.btnDocument.Size = new System.Drawing.Size(146, 23);
-            this.btnDocument.TabIndex = 1;
-            this.btnDocument.Text = "Document";
-            this.btnDocument.UseVisualStyleBackColor = true;
-            this.btnDocument.Click += new System.EventHandler(this.btnDocument_Click);
-            // 
-            // btnEbook
-            // 
-            this.btnEbook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEbook.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
-            this.btnEbook.Location = new System.Drawing.Point(3, 91);
-            this.btnEbook.Name = "btnEbook";
-            this.btnEbook.Size = new System.Drawing.Size(146, 23);
-            this.btnEbook.TabIndex = 2;
-            this.btnEbook.Text = "E-Book";
-            this.btnEbook.UseVisualStyleBackColor = true;
-            this.btnEbook.Click += new System.EventHandler(this.btnEbook_Click);
-            // 
-            // btnVideo
-            // 
-            this.btnVideo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVideo.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
-            this.btnVideo.Location = new System.Drawing.Point(3, 120);
-            this.btnVideo.Name = "btnVideo";
-            this.btnVideo.Size = new System.Drawing.Size(146, 23);
-            this.btnVideo.TabIndex = 3;
-            this.btnVideo.Text = "Video";
-            this.btnVideo.UseVisualStyleBackColor = true;
-            // 
-            // btnVector
-            // 
-            this.btnVector.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVector.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
-            this.btnVector.Location = new System.Drawing.Point(3, 149);
-            this.btnVector.Name = "btnVector";
-            this.btnVector.Size = new System.Drawing.Size(146, 23);
-            this.btnVector.TabIndex = 4;
-            this.btnVector.Text = "Vector";
-            this.btnVector.UseVisualStyleBackColor = true;
-            this.btnVector.Click += new System.EventHandler(this.btnVector_Click);
-            // 
-            // btnAudio
-            // 
-            this.btnAudio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAudio.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
-            this.btnAudio.Location = new System.Drawing.Point(3, 178);
-            this.btnAudio.Name = "btnAudio";
-            this.btnAudio.Size = new System.Drawing.Size(146, 23);
-            this.btnAudio.TabIndex = 5;
-            this.btnAudio.Text = "Audio";
-            this.btnAudio.UseVisualStyleBackColor = true;
-            // 
-            // searchTBox
-            // 
-            this.searchTBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(23)))));
-            this.searchTBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.searchTBox.Font = new System.Drawing.Font("RocknRoll One", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchTBox.ForeColor = System.Drawing.Color.White;
-            this.searchTBox.Location = new System.Drawing.Point(0, 0);
-            this.searchTBox.Name = "searchTBox";
-            this.searchTBox.Size = new System.Drawing.Size(577, 23);
-            this.searchTBox.TabIndex = 2;
-            this.searchTBox.Text = "Search...";
-            this.searchTBox.Enter += new System.EventHandler(this.searchTBox_Enter);
-            this.searchTBox.Leave += new System.EventHandler(this.searchTBox_Leave);
             // 
             // flowLayoutPanel2
             // 
@@ -285,963 +178,72 @@
             // imageTablePanel
             // 
             this.imageTablePanel.Controls.Add(this.PNG);
-            this.imageTablePanel.Controls.Add(this.button7);
-            this.imageTablePanel.Controls.Add(this.button19);
-            this.imageTablePanel.Controls.Add(this.button16);
-            this.imageTablePanel.Controls.Add(this.button13);
-            this.imageTablePanel.Controls.Add(this.button74);
-            this.imageTablePanel.Controls.Add(this.button73);
-            this.imageTablePanel.Controls.Add(this.button72);
-            this.imageTablePanel.Controls.Add(this.button71);
-            this.imageTablePanel.Controls.Add(this.button70);
-            this.imageTablePanel.Controls.Add(this.button69);
-            this.imageTablePanel.Controls.Add(this.button68);
-            this.imageTablePanel.Controls.Add(this.button67);
-            this.imageTablePanel.Controls.Add(this.button66);
-            this.imageTablePanel.Controls.Add(this.button65);
-            this.imageTablePanel.Controls.Add(this.button64);
-            this.imageTablePanel.Controls.Add(this.button63);
-            this.imageTablePanel.Controls.Add(this.button62);
-            this.imageTablePanel.Controls.Add(this.button61);
-            this.imageTablePanel.Controls.Add(this.button60);
-            this.imageTablePanel.Controls.Add(this.button59);
-            this.imageTablePanel.Controls.Add(this.button58);
-            this.imageTablePanel.Controls.Add(this.button57);
-            this.imageTablePanel.Controls.Add(this.button56);
-            this.imageTablePanel.Controls.Add(this.button55);
-            this.imageTablePanel.Controls.Add(this.button54);
-            this.imageTablePanel.Controls.Add(this.button53);
-            this.imageTablePanel.Controls.Add(this.button52);
-            this.imageTablePanel.Controls.Add(this.button51);
-            this.imageTablePanel.Controls.Add(this.button50);
-            this.imageTablePanel.Controls.Add(this.button49);
-            this.imageTablePanel.Controls.Add(this.button48);
-            this.imageTablePanel.Controls.Add(this.button47);
-            this.imageTablePanel.Controls.Add(this.button46);
-            this.imageTablePanel.Controls.Add(this.button45);
-            this.imageTablePanel.Controls.Add(this.button44);
-            this.imageTablePanel.Controls.Add(this.button43);
-            this.imageTablePanel.Controls.Add(this.button42);
-            this.imageTablePanel.Controls.Add(this.button41);
-            this.imageTablePanel.Controls.Add(this.button40);
-            this.imageTablePanel.Controls.Add(this.button39);
-            this.imageTablePanel.Controls.Add(this.button38);
-            this.imageTablePanel.Controls.Add(this.button37);
-            this.imageTablePanel.Controls.Add(this.button36);
-            this.imageTablePanel.Controls.Add(this.button35);
-            this.imageTablePanel.Controls.Add(this.button34);
-            this.imageTablePanel.Controls.Add(this.button33);
-            this.imageTablePanel.Controls.Add(this.button32);
-            this.imageTablePanel.Controls.Add(this.button31);
-            this.imageTablePanel.Controls.Add(this.button30);
-            this.imageTablePanel.Controls.Add(this.button29);
-            this.imageTablePanel.Controls.Add(this.button28);
-            this.imageTablePanel.Controls.Add(this.button27);
-            this.imageTablePanel.Controls.Add(this.button26);
-            this.imageTablePanel.Controls.Add(this.button25);
-            this.imageTablePanel.Controls.Add(this.button24);
-            this.imageTablePanel.Controls.Add(this.button23);
-            this.imageTablePanel.Controls.Add(this.button22);
-            this.imageTablePanel.Controls.Add(this.button21);
-            this.imageTablePanel.Controls.Add(this.button20);
-            this.imageTablePanel.Controls.Add(this.button18);
-            this.imageTablePanel.Controls.Add(this.button17);
-            this.imageTablePanel.Controls.Add(this.button15);
-            this.imageTablePanel.Controls.Add(this.button14);
-            this.imageTablePanel.Controls.Add(this.button12);
-            this.imageTablePanel.Controls.Add(this.button10);
-            this.imageTablePanel.Controls.Add(this.button9);
-            this.imageTablePanel.Controls.Add(this.button11);
-            this.imageTablePanel.Controls.Add(this.button8);
+            this.imageTablePanel.Controls.Add(this.JPG);
+            this.imageTablePanel.Controls.Add(this.PSD);
+            this.imageTablePanel.Controls.Add(this.SVG);
+            this.imageTablePanel.Controls.Add(this.PALM);
+            this.imageTablePanel.Controls.Add(this.MTV);
+            this.imageTablePanel.Controls.Add(this.PAM);
+            this.imageTablePanel.Controls.Add(this.OTB);
+            this.imageTablePanel.Controls.Add(this.HRZ);
+            this.imageTablePanel.Controls.Add(this.IPL);
+            this.imageTablePanel.Controls.Add(this.SUN);
+            this.imageTablePanel.Controls.Add(this.UYVY);
+            this.imageTablePanel.Controls.Add(this.XV);
+            this.imageTablePanel.Controls.Add(this.FTS);
+            this.imageTablePanel.Controls.Add(this.G4);
+            this.imageTablePanel.Controls.Add(this.PCT);
+            this.imageTablePanel.Controls.Add(this.FAX);
+            this.imageTablePanel.Controls.Add(this.SIX);
+            this.imageTablePanel.Controls.Add(this.RGBO);
+            this.imageTablePanel.Controls.Add(this.VIPS);
+            this.imageTablePanel.Controls.Add(this.JPS);
+            this.imageTablePanel.Controls.Add(this.VIFF);
+            this.imageTablePanel.Controls.Add(this.PFM);
+            this.imageTablePanel.Controls.Add(this.SGI);
+            this.imageTablePanel.Controls.Add(this.MNG);
+            this.imageTablePanel.Controls.Add(this.RGF);
+            this.imageTablePanel.Controls.Add(this.PICT);
+            this.imageTablePanel.Controls.Add(this.PGX);
+            this.imageTablePanel.Controls.Add(this.YUV);
+            this.imageTablePanel.Controls.Add(this.PAL);
+            this.imageTablePanel.Controls.Add(this.PCD);
+            this.imageTablePanel.Controls.Add(this.SIXEL);
+            this.imageTablePanel.Controls.Add(this.RAS);
+            this.imageTablePanel.Controls.Add(this.G3);
+            this.imageTablePanel.Controls.Add(this.JPE);
+            this.imageTablePanel.Controls.Add(this.PICON);
+            this.imageTablePanel.Controls.Add(this.PBM);
+            this.imageTablePanel.Controls.Add(this.PDB);
+            this.imageTablePanel.Controls.Add(this.JP2);
+            this.imageTablePanel.Controls.Add(this.PNM);
+            this.imageTablePanel.Controls.Add(this.MAP);
+            this.imageTablePanel.Controls.Add(this.HEIF);
+            this.imageTablePanel.Controls.Add(this.XBM);
+            this.imageTablePanel.Controls.Add(this.RGBA);
+            this.imageTablePanel.Controls.Add(this.WBMP);
+            this.imageTablePanel.Controls.Add(this.PCX);
+            this.imageTablePanel.Controls.Add(this.PPM);
+            this.imageTablePanel.Controls.Add(this.AVIFF);
+            this.imageTablePanel.Controls.Add(this.BPM);
+            this.imageTablePanel.Controls.Add(this.PGM);
+            this.imageTablePanel.Controls.Add(this.TGA);
+            this.imageTablePanel.Controls.Add(this.DDS);
+            this.imageTablePanel.Controls.Add(this.EXR);
+            this.imageTablePanel.Controls.Add(this.TIFF);
+            this.imageTablePanel.Controls.Add(this.XPM);
+            this.imageTablePanel.Controls.Add(this.GIF);
+            this.imageTablePanel.Controls.Add(this.WEBP);
+            this.imageTablePanel.Controls.Add(this.RGB);
+            this.imageTablePanel.Controls.Add(this.CUR);
+            this.imageTablePanel.Controls.Add(this.HEIC);
+            this.imageTablePanel.Controls.Add(this.HDR);
+            this.imageTablePanel.Controls.Add(this.ICO);
             this.imageTablePanel.Location = new System.Drawing.Point(13, 13);
             this.imageTablePanel.Name = "imageTablePanel";
             this.imageTablePanel.Size = new System.Drawing.Size(404, 451);
             this.imageTablePanel.TabIndex = 0;
-            this.imageTablePanel.Visible = false;
-            // 
-            // button74
-            // 
-            this.button74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button74.FlatAppearance.BorderSize = 0;
-            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button74.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button74.Location = new System.Drawing.Point(338, 3);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(61, 31);
-            this.button74.TabIndex = 205;
-            this.button74.Text = "JBIG";
-            this.button74.UseVisualStyleBackColor = false;
-            // 
-            // button73
-            // 
-            this.button73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button73.FlatAppearance.BorderSize = 0;
-            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button73.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button73.Location = new System.Drawing.Point(3, 40);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(61, 31);
-            this.button73.TabIndex = 204;
-            this.button73.Text = "PALM";
-            this.button73.UseVisualStyleBackColor = false;
-            // 
-            // button72
-            // 
-            this.button72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button72.FlatAppearance.BorderSize = 0;
-            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button72.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button72.Location = new System.Drawing.Point(70, 40);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(61, 31);
-            this.button72.TabIndex = 203;
-            this.button72.Text = "MTV";
-            this.button72.UseVisualStyleBackColor = false;
-            // 
-            // button71
-            // 
-            this.button71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button71.FlatAppearance.BorderSize = 0;
-            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button71.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button71.Location = new System.Drawing.Point(137, 40);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(61, 31);
-            this.button71.TabIndex = 202;
-            this.button71.Text = "PAM";
-            this.button71.UseVisualStyleBackColor = false;
-            // 
-            // button70
-            // 
-            this.button70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button70.FlatAppearance.BorderSize = 0;
-            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button70.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button70.Location = new System.Drawing.Point(204, 40);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(61, 31);
-            this.button70.TabIndex = 201;
-            this.button70.Text = "OTB";
-            this.button70.UseVisualStyleBackColor = false;
-            // 
-            // button69
-            // 
-            this.button69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button69.FlatAppearance.BorderSize = 0;
-            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button69.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button69.Location = new System.Drawing.Point(271, 40);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(61, 31);
-            this.button69.TabIndex = 200;
-            this.button69.Text = "HRZ";
-            this.button69.UseVisualStyleBackColor = false;
-            // 
-            // button68
-            // 
-            this.button68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button68.FlatAppearance.BorderSize = 0;
-            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button68.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button68.Location = new System.Drawing.Point(338, 40);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(61, 31);
-            this.button68.TabIndex = 199;
-            this.button68.Text = "IPL";
-            this.button68.UseVisualStyleBackColor = false;
-            // 
-            // button67
-            // 
-            this.button67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button67.FlatAppearance.BorderSize = 0;
-            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button67.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button67.Location = new System.Drawing.Point(3, 77);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(61, 31);
-            this.button67.TabIndex = 198;
-            this.button67.Text = "SUN";
-            this.button67.UseVisualStyleBackColor = false;
-            // 
-            // button66
-            // 
-            this.button66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button66.FlatAppearance.BorderSize = 0;
-            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button66.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button66.Location = new System.Drawing.Point(70, 77);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(61, 31);
-            this.button66.TabIndex = 197;
-            this.button66.Text = "UYVY";
-            this.button66.UseVisualStyleBackColor = false;
-            // 
-            // button65
-            // 
-            this.button65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button65.FlatAppearance.BorderSize = 0;
-            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button65.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button65.Location = new System.Drawing.Point(137, 77);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(61, 31);
-            this.button65.TabIndex = 196;
-            this.button65.Text = "XV";
-            this.button65.UseVisualStyleBackColor = false;
-            // 
-            // button64
-            // 
-            this.button64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button64.FlatAppearance.BorderSize = 0;
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button64.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button64.Location = new System.Drawing.Point(204, 77);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(61, 31);
-            this.button64.TabIndex = 195;
-            this.button64.Text = "FTS";
-            this.button64.UseVisualStyleBackColor = false;
-            // 
-            // button63
-            // 
-            this.button63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button63.FlatAppearance.BorderSize = 0;
-            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button63.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button63.Location = new System.Drawing.Point(271, 77);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(61, 31);
-            this.button63.TabIndex = 194;
-            this.button63.Text = "G4";
-            this.button63.UseVisualStyleBackColor = false;
-            // 
-            // button62
-            // 
-            this.button62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button62.FlatAppearance.BorderSize = 0;
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button62.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button62.Location = new System.Drawing.Point(338, 77);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(61, 31);
-            this.button62.TabIndex = 193;
-            this.button62.Text = "PCT";
-            this.button62.UseVisualStyleBackColor = false;
-            // 
-            // button61
-            // 
-            this.button61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button61.FlatAppearance.BorderSize = 0;
-            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button61.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button61.Location = new System.Drawing.Point(3, 114);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(61, 31);
-            this.button61.TabIndex = 192;
-            this.button61.Text = "FAX";
-            this.button61.UseVisualStyleBackColor = false;
-            // 
-            // button60
-            // 
-            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button60.FlatAppearance.BorderSize = 0;
-            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button60.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button60.Location = new System.Drawing.Point(70, 114);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(61, 31);
-            this.button60.TabIndex = 191;
-            this.button60.Text = "SIX";
-            this.button60.UseVisualStyleBackColor = false;
-            // 
-            // button59
-            // 
-            this.button59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button59.FlatAppearance.BorderSize = 0;
-            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button59.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button59.Location = new System.Drawing.Point(137, 114);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(61, 31);
-            this.button59.TabIndex = 190;
-            this.button59.Text = "RGBO";
-            this.button59.UseVisualStyleBackColor = false;
-            // 
-            // button58
-            // 
-            this.button58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button58.FlatAppearance.BorderSize = 0;
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button58.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button58.Location = new System.Drawing.Point(204, 114);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(61, 31);
-            this.button58.TabIndex = 189;
-            this.button58.Text = "VIPS";
-            this.button58.UseVisualStyleBackColor = false;
-            // 
-            // button57
-            // 
-            this.button57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button57.FlatAppearance.BorderSize = 0;
-            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button57.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button57.Location = new System.Drawing.Point(271, 114);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(61, 31);
-            this.button57.TabIndex = 188;
-            this.button57.Text = "JFI";
-            this.button57.UseVisualStyleBackColor = false;
-            // 
-            // button56
-            // 
-            this.button56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button56.FlatAppearance.BorderSize = 0;
-            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button56.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button56.Location = new System.Drawing.Point(338, 114);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(61, 31);
-            this.button56.TabIndex = 187;
-            this.button56.Text = "JPS";
-            this.button56.UseVisualStyleBackColor = false;
-            // 
-            // button55
-            // 
-            this.button55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button55.FlatAppearance.BorderSize = 0;
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button55.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button55.Location = new System.Drawing.Point(3, 151);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(61, 31);
-            this.button55.TabIndex = 186;
-            this.button55.Text = "VIFF";
-            this.button55.UseVisualStyleBackColor = false;
-            // 
-            // button54
-            // 
-            this.button54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button54.FlatAppearance.BorderSize = 0;
-            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button54.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button54.Location = new System.Drawing.Point(70, 151);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(61, 31);
-            this.button54.TabIndex = 185;
-            this.button54.Text = "XWD";
-            this.button54.UseVisualStyleBackColor = false;
-            // 
-            // button53
-            // 
-            this.button53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button53.FlatAppearance.BorderSize = 0;
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button53.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button53.Location = new System.Drawing.Point(137, 151);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(61, 31);
-            this.button53.TabIndex = 184;
-            this.button53.Text = "PFM";
-            this.button53.UseVisualStyleBackColor = false;
-            // 
-            // button52
-            // 
-            this.button52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button52.FlatAppearance.BorderSize = 0;
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button52.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button52.Location = new System.Drawing.Point(204, 151);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(61, 31);
-            this.button52.TabIndex = 183;
-            this.button52.Text = "SGI";
-            this.button52.UseVisualStyleBackColor = false;
-            // 
-            // button51
-            // 
-            this.button51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button51.FlatAppearance.BorderSize = 0;
-            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button51.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button51.Location = new System.Drawing.Point(271, 151);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(61, 31);
-            this.button51.TabIndex = 182;
-            this.button51.Text = "MNG";
-            this.button51.UseVisualStyleBackColor = false;
-            // 
-            // button50
-            // 
-            this.button50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button50.FlatAppearance.BorderSize = 0;
-            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button50.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button50.Location = new System.Drawing.Point(338, 151);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(61, 31);
-            this.button50.TabIndex = 181;
-            this.button50.Text = "RGF";
-            this.button50.UseVisualStyleBackColor = false;
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button49.FlatAppearance.BorderSize = 0;
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button49.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button49.Location = new System.Drawing.Point(3, 188);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(61, 31);
-            this.button49.TabIndex = 180;
-            this.button49.Text = "PICT";
-            this.button49.UseVisualStyleBackColor = false;
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button48.FlatAppearance.BorderSize = 0;
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button48.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button48.Location = new System.Drawing.Point(70, 188);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(61, 31);
-            this.button48.TabIndex = 179;
-            this.button48.Text = "PGX";
-            this.button48.UseVisualStyleBackColor = false;
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button47.FlatAppearance.BorderSize = 0;
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button47.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button47.Location = new System.Drawing.Point(137, 188);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(61, 31);
-            this.button47.TabIndex = 178;
-            this.button47.Text = "YUV";
-            this.button47.UseVisualStyleBackColor = false;
-            // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button46.FlatAppearance.BorderSize = 0;
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button46.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button46.Location = new System.Drawing.Point(204, 188);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(61, 31);
-            this.button46.TabIndex = 177;
-            this.button46.Text = "PAL";
-            this.button46.UseVisualStyleBackColor = false;
-            // 
-            // button45
-            // 
-            this.button45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button45.FlatAppearance.BorderSize = 0;
-            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button45.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button45.Location = new System.Drawing.Point(271, 188);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(61, 31);
-            this.button45.TabIndex = 176;
-            this.button45.Text = "PCD";
-            this.button45.UseVisualStyleBackColor = false;
-            // 
-            // button44
-            // 
-            this.button44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button44.FlatAppearance.BorderSize = 0;
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button44.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button44.Location = new System.Drawing.Point(338, 188);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(61, 31);
-            this.button44.TabIndex = 175;
-            this.button44.Text = "SIXEL";
-            this.button44.UseVisualStyleBackColor = false;
-            // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button43.FlatAppearance.BorderSize = 0;
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button43.Location = new System.Drawing.Point(3, 225);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(61, 31);
-            this.button43.TabIndex = 174;
-            this.button43.Text = "RAS";
-            this.button43.UseVisualStyleBackColor = false;
-            // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button42.FlatAppearance.BorderSize = 0;
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button42.Location = new System.Drawing.Point(70, 225);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(61, 31);
-            this.button42.TabIndex = 173;
-            this.button42.Text = "JIF";
-            this.button42.UseVisualStyleBackColor = false;
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button41.FlatAppearance.BorderSize = 0;
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button41.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button41.Location = new System.Drawing.Point(137, 225);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(61, 31);
-            this.button41.TabIndex = 172;
-            this.button41.Text = "G3";
-            this.button41.UseVisualStyleBackColor = false;
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button40.FlatAppearance.BorderSize = 0;
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button40.Location = new System.Drawing.Point(204, 225);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(61, 31);
-            this.button40.TabIndex = 171;
-            this.button40.Text = "JPE";
-            this.button40.UseVisualStyleBackColor = false;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button39.FlatAppearance.BorderSize = 0;
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button39.Location = new System.Drawing.Point(271, 225);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(61, 31);
-            this.button39.TabIndex = 170;
-            this.button39.Text = "PICON";
-            this.button39.UseVisualStyleBackColor = false;
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button38.FlatAppearance.BorderSize = 0;
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button38.Location = new System.Drawing.Point(338, 225);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(61, 31);
-            this.button38.TabIndex = 169;
-            this.button38.Text = "PBM";
-            this.button38.UseVisualStyleBackColor = false;
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button37.FlatAppearance.BorderSize = 0;
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.Location = new System.Drawing.Point(3, 262);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(61, 31);
-            this.button37.TabIndex = 168;
-            this.button37.Text = "PDB";
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // button36
-            // 
-            this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button36.FlatAppearance.BorderSize = 0;
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button36.Location = new System.Drawing.Point(70, 262);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(61, 31);
-            this.button36.TabIndex = 167;
-            this.button36.Text = "JP2";
-            this.button36.UseVisualStyleBackColor = false;
-            // 
-            // button35
-            // 
-            this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button35.FlatAppearance.BorderSize = 0;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.Location = new System.Drawing.Point(137, 262);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(61, 31);
-            this.button35.TabIndex = 166;
-            this.button35.Text = "PNM";
-            this.button35.UseVisualStyleBackColor = false;
-            // 
-            // button34
-            // 
-            this.button34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button34.FlatAppearance.BorderSize = 0;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.Location = new System.Drawing.Point(204, 262);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(61, 31);
-            this.button34.TabIndex = 165;
-            this.button34.Text = "MAP";
-            this.button34.UseVisualStyleBackColor = false;
-            // 
-            // button33
-            // 
-            this.button33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button33.FlatAppearance.BorderSize = 0;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button33.Location = new System.Drawing.Point(271, 262);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(61, 31);
-            this.button33.TabIndex = 164;
-            this.button33.Text = "JBG";
-            this.button33.UseVisualStyleBackColor = false;
-            // 
-            // button32
-            // 
-            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button32.FlatAppearance.BorderSize = 0;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button32.Location = new System.Drawing.Point(338, 262);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(61, 31);
-            this.button32.TabIndex = 163;
-            this.button32.Text = "HEIF";
-            this.button32.UseVisualStyleBackColor = false;
-            // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button31.FlatAppearance.BorderSize = 0;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.Location = new System.Drawing.Point(3, 299);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(61, 31);
-            this.button31.TabIndex = 162;
-            this.button31.Text = "XBM";
-            this.button31.UseVisualStyleBackColor = false;
-            // 
-            // button30
-            // 
-            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button30.FlatAppearance.BorderSize = 0;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button30.Location = new System.Drawing.Point(70, 299);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(61, 31);
-            this.button30.TabIndex = 161;
-            this.button30.Text = "RGBA";
-            this.button30.UseVisualStyleBackColor = false;
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button29.FlatAppearance.BorderSize = 0;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.Location = new System.Drawing.Point(137, 299);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(61, 31);
-            this.button29.TabIndex = 160;
-            this.button29.Text = "WBMP";
-            this.button29.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.Location = new System.Drawing.Point(204, 299);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(61, 31);
-            this.button28.TabIndex = 159;
-            this.button28.Text = "PCX";
-            this.button28.UseVisualStyleBackColor = false;
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button27.Location = new System.Drawing.Point(271, 299);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(61, 31);
-            this.button27.TabIndex = 158;
-            this.button27.Text = "PPM";
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button26.Location = new System.Drawing.Point(338, 299);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(61, 31);
-            this.button26.TabIndex = 157;
-            this.button26.Text = "AVIF";
-            this.button26.UseVisualStyleBackColor = false;
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button25.FlatAppearance.BorderSize = 0;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button25.Location = new System.Drawing.Point(3, 336);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(61, 31);
-            this.button25.TabIndex = 156;
-            this.button25.Text = "BMP";
-            this.button25.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.Location = new System.Drawing.Point(70, 336);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(61, 31);
-            this.button24.TabIndex = 155;
-            this.button24.Text = "PGM";
-            this.button24.UseVisualStyleBackColor = false;
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.Location = new System.Drawing.Point(137, 336);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(61, 31);
-            this.button23.TabIndex = 154;
-            this.button23.Text = "TGA";
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.Location = new System.Drawing.Point(204, 336);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(61, 31);
-            this.button22.TabIndex = 153;
-            this.button22.Text = "DDS";
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.Location = new System.Drawing.Point(271, 336);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(61, 31);
-            this.button21.TabIndex = 152;
-            this.button21.Text = "EXR";
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button20.Location = new System.Drawing.Point(338, 336);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(61, 31);
-            this.button20.TabIndex = 151;
-            this.button20.Text = "TIFF";
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button19.Location = new System.Drawing.Point(137, 3);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(61, 31);
-            this.button19.TabIndex = 150;
-            this.button19.Text = "JPEG";
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.Location = new System.Drawing.Point(3, 373);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(61, 31);
-            this.button18.TabIndex = 149;
-            this.button18.Text = "JFIF";
-            this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.Location = new System.Drawing.Point(70, 373);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(61, 31);
-            this.button17.TabIndex = 148;
-            this.button17.Text = "XPM";
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(204, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(61, 31);
-            this.button16.TabIndex = 147;
-            this.button16.Text = "PSD";
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(137, 373);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(61, 31);
-            this.button15.TabIndex = 146;
-            this.button15.Text = "GIF";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(204, 373);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(61, 31);
-            this.button14.TabIndex = 145;
-            this.button14.Text = "WEBP";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.Location = new System.Drawing.Point(271, 373);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(61, 31);
-            this.button12.TabIndex = 143;
-            this.button12.Text = "RGB";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.Location = new System.Drawing.Point(338, 373);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(61, 31);
-            this.button10.TabIndex = 141;
-            this.button10.Text = "CUR";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(3, 410);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(61, 31);
-            this.button9.TabIndex = 140;
-            this.button9.Text = "HEIC";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.Location = new System.Drawing.Point(70, 410);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(61, 31);
-            this.button11.TabIndex = 142;
-            this.button11.Text = "HDR";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(70, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(61, 31);
-            this.button7.TabIndex = 138;
-            this.button7.Text = "JPG";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(137, 410);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(61, 31);
-            this.button8.TabIndex = 139;
-            this.button8.Text = "ICO";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(271, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(61, 31);
-            this.button13.TabIndex = 144;
-            this.button13.Text = "SVG";
-            this.button13.UseVisualStyleBackColor = false;
+            this.imageTablePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.imageTablePanel_Paint);
             // 
             // PNG
             // 
@@ -1257,18 +259,859 @@
             this.PNG.UseVisualStyleBackColor = false;
             this.PNG.Click += new System.EventHandler(this.PNG_Click);
             // 
-            // btnCloseSF
+            // JPG
             // 
-            this.btnCloseSF.FlatAppearance.BorderSize = 0;
-            this.btnCloseSF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseSF.ForeColor = System.Drawing.Color.Transparent;
-            this.btnCloseSF.Image = global::FormatConverter.Properties.Resources.x2;
-            this.btnCloseSF.Location = new System.Drawing.Point(530, 0);
-            this.btnCloseSF.Name = "btnCloseSF";
-            this.btnCloseSF.Size = new System.Drawing.Size(47, 23);
-            this.btnCloseSF.TabIndex = 6;
-            this.btnCloseSF.UseVisualStyleBackColor = true;
-            this.btnCloseSF.Click += new System.EventHandler(this.btnCloseSF_Click);
+            this.JPG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.JPG.FlatAppearance.BorderSize = 0;
+            this.JPG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.JPG.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JPG.Location = new System.Drawing.Point(70, 3);
+            this.JPG.Name = "JPG";
+            this.JPG.Size = new System.Drawing.Size(61, 31);
+            this.JPG.TabIndex = 138;
+            this.JPG.Text = "JPG";
+            this.JPG.UseVisualStyleBackColor = false;
+            this.JPG.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // PSD
+            // 
+            this.PSD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PSD.FlatAppearance.BorderSize = 0;
+            this.PSD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PSD.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PSD.Location = new System.Drawing.Point(137, 3);
+            this.PSD.Name = "PSD";
+            this.PSD.Size = new System.Drawing.Size(61, 31);
+            this.PSD.TabIndex = 147;
+            this.PSD.Text = "PSD";
+            this.PSD.UseVisualStyleBackColor = false;
+            this.PSD.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // SVG
+            // 
+            this.SVG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.SVG.FlatAppearance.BorderSize = 0;
+            this.SVG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SVG.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SVG.Location = new System.Drawing.Point(204, 3);
+            this.SVG.Name = "SVG";
+            this.SVG.Size = new System.Drawing.Size(61, 31);
+            this.SVG.TabIndex = 144;
+            this.SVG.Text = "SVG";
+            this.SVG.UseVisualStyleBackColor = false;
+            this.SVG.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // PALM
+            // 
+            this.PALM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PALM.FlatAppearance.BorderSize = 0;
+            this.PALM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PALM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PALM.Location = new System.Drawing.Point(271, 3);
+            this.PALM.Name = "PALM";
+            this.PALM.Size = new System.Drawing.Size(61, 31);
+            this.PALM.TabIndex = 204;
+            this.PALM.Text = "PALM";
+            this.PALM.UseVisualStyleBackColor = false;
+            this.PALM.Click += new System.EventHandler(this.PALM_Click);
+            // 
+            // MTV
+            // 
+            this.MTV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.MTV.FlatAppearance.BorderSize = 0;
+            this.MTV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MTV.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MTV.Location = new System.Drawing.Point(338, 3);
+            this.MTV.Name = "MTV";
+            this.MTV.Size = new System.Drawing.Size(61, 31);
+            this.MTV.TabIndex = 203;
+            this.MTV.Text = "MTV";
+            this.MTV.UseVisualStyleBackColor = false;
+            this.MTV.Click += new System.EventHandler(this.MTV_Click);
+            // 
+            // PAM
+            // 
+            this.PAM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PAM.FlatAppearance.BorderSize = 0;
+            this.PAM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PAM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PAM.Location = new System.Drawing.Point(3, 40);
+            this.PAM.Name = "PAM";
+            this.PAM.Size = new System.Drawing.Size(61, 31);
+            this.PAM.TabIndex = 202;
+            this.PAM.Text = "PAM";
+            this.PAM.UseVisualStyleBackColor = false;
+            this.PAM.Click += new System.EventHandler(this.PAM_Click);
+            // 
+            // OTB
+            // 
+            this.OTB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.OTB.FlatAppearance.BorderSize = 0;
+            this.OTB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OTB.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OTB.Location = new System.Drawing.Point(70, 40);
+            this.OTB.Name = "OTB";
+            this.OTB.Size = new System.Drawing.Size(61, 31);
+            this.OTB.TabIndex = 201;
+            this.OTB.Text = "OTB";
+            this.OTB.UseVisualStyleBackColor = false;
+            this.OTB.Click += new System.EventHandler(this.OTB_Click);
+            // 
+            // HRZ
+            // 
+            this.HRZ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.HRZ.FlatAppearance.BorderSize = 0;
+            this.HRZ.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HRZ.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HRZ.Location = new System.Drawing.Point(137, 40);
+            this.HRZ.Name = "HRZ";
+            this.HRZ.Size = new System.Drawing.Size(61, 31);
+            this.HRZ.TabIndex = 200;
+            this.HRZ.Text = "HRZ";
+            this.HRZ.UseVisualStyleBackColor = false;
+            this.HRZ.Click += new System.EventHandler(this.HRZ_Click);
+            // 
+            // IPL
+            // 
+            this.IPL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.IPL.FlatAppearance.BorderSize = 0;
+            this.IPL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.IPL.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IPL.Location = new System.Drawing.Point(204, 40);
+            this.IPL.Name = "IPL";
+            this.IPL.Size = new System.Drawing.Size(61, 31);
+            this.IPL.TabIndex = 199;
+            this.IPL.Text = "IPL";
+            this.IPL.UseVisualStyleBackColor = false;
+            this.IPL.Click += new System.EventHandler(this.IPL_Click);
+            // 
+            // SUN
+            // 
+            this.SUN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.SUN.FlatAppearance.BorderSize = 0;
+            this.SUN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SUN.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SUN.Location = new System.Drawing.Point(271, 40);
+            this.SUN.Name = "SUN";
+            this.SUN.Size = new System.Drawing.Size(61, 31);
+            this.SUN.TabIndex = 198;
+            this.SUN.Text = "SUN";
+            this.SUN.UseVisualStyleBackColor = false;
+            this.SUN.Click += new System.EventHandler(this.SUN_Click);
+            // 
+            // UYVY
+            // 
+            this.UYVY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.UYVY.FlatAppearance.BorderSize = 0;
+            this.UYVY.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UYVY.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UYVY.Location = new System.Drawing.Point(338, 40);
+            this.UYVY.Name = "UYVY";
+            this.UYVY.Size = new System.Drawing.Size(61, 31);
+            this.UYVY.TabIndex = 197;
+            this.UYVY.Text = "UYVY";
+            this.UYVY.UseVisualStyleBackColor = false;
+            this.UYVY.Click += new System.EventHandler(this.UYVY_Click);
+            // 
+            // XV
+            // 
+            this.XV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.XV.FlatAppearance.BorderSize = 0;
+            this.XV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.XV.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XV.Location = new System.Drawing.Point(3, 77);
+            this.XV.Name = "XV";
+            this.XV.Size = new System.Drawing.Size(61, 31);
+            this.XV.TabIndex = 196;
+            this.XV.Text = "XV";
+            this.XV.UseVisualStyleBackColor = false;
+            this.XV.Click += new System.EventHandler(this.XV_Click);
+            // 
+            // FTS
+            // 
+            this.FTS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.FTS.FlatAppearance.BorderSize = 0;
+            this.FTS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FTS.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FTS.Location = new System.Drawing.Point(70, 77);
+            this.FTS.Name = "FTS";
+            this.FTS.Size = new System.Drawing.Size(61, 31);
+            this.FTS.TabIndex = 195;
+            this.FTS.Text = "FTS";
+            this.FTS.UseVisualStyleBackColor = false;
+            this.FTS.Click += new System.EventHandler(this.FTS_Click);
+            // 
+            // G4
+            // 
+            this.G4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.G4.FlatAppearance.BorderSize = 0;
+            this.G4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.G4.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G4.Location = new System.Drawing.Point(137, 77);
+            this.G4.Name = "G4";
+            this.G4.Size = new System.Drawing.Size(61, 31);
+            this.G4.TabIndex = 194;
+            this.G4.Text = "G4";
+            this.G4.UseVisualStyleBackColor = false;
+            this.G4.Click += new System.EventHandler(this.G4_Click);
+            // 
+            // PCT
+            // 
+            this.PCT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PCT.FlatAppearance.BorderSize = 0;
+            this.PCT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PCT.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PCT.Location = new System.Drawing.Point(204, 77);
+            this.PCT.Name = "PCT";
+            this.PCT.Size = new System.Drawing.Size(61, 31);
+            this.PCT.TabIndex = 193;
+            this.PCT.Text = "PCT";
+            this.PCT.UseVisualStyleBackColor = false;
+            this.PCT.Click += new System.EventHandler(this.PCT_Click);
+            // 
+            // FAX
+            // 
+            this.FAX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.FAX.FlatAppearance.BorderSize = 0;
+            this.FAX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FAX.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FAX.Location = new System.Drawing.Point(271, 77);
+            this.FAX.Name = "FAX";
+            this.FAX.Size = new System.Drawing.Size(61, 31);
+            this.FAX.TabIndex = 192;
+            this.FAX.Text = "FAX";
+            this.FAX.UseVisualStyleBackColor = false;
+            this.FAX.Click += new System.EventHandler(this.FAX_Click);
+            // 
+            // SIX
+            // 
+            this.SIX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.SIX.FlatAppearance.BorderSize = 0;
+            this.SIX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SIX.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SIX.Location = new System.Drawing.Point(338, 77);
+            this.SIX.Name = "SIX";
+            this.SIX.Size = new System.Drawing.Size(61, 31);
+            this.SIX.TabIndex = 191;
+            this.SIX.Text = "SIX";
+            this.SIX.UseVisualStyleBackColor = false;
+            this.SIX.Click += new System.EventHandler(this.SIX_Click);
+            // 
+            // RGBO
+            // 
+            this.RGBO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.RGBO.FlatAppearance.BorderSize = 0;
+            this.RGBO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RGBO.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RGBO.Location = new System.Drawing.Point(3, 114);
+            this.RGBO.Name = "RGBO";
+            this.RGBO.Size = new System.Drawing.Size(61, 31);
+            this.RGBO.TabIndex = 190;
+            this.RGBO.Text = "RGBO";
+            this.RGBO.UseVisualStyleBackColor = false;
+            this.RGBO.Click += new System.EventHandler(this.RGBO_Click);
+            // 
+            // VIPS
+            // 
+            this.VIPS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.VIPS.FlatAppearance.BorderSize = 0;
+            this.VIPS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VIPS.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIPS.Location = new System.Drawing.Point(70, 114);
+            this.VIPS.Name = "VIPS";
+            this.VIPS.Size = new System.Drawing.Size(61, 31);
+            this.VIPS.TabIndex = 189;
+            this.VIPS.Text = "VIPS";
+            this.VIPS.UseVisualStyleBackColor = false;
+            this.VIPS.Click += new System.EventHandler(this.VIPS_Click);
+            // 
+            // JPS
+            // 
+            this.JPS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.JPS.FlatAppearance.BorderSize = 0;
+            this.JPS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.JPS.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JPS.Location = new System.Drawing.Point(137, 114);
+            this.JPS.Name = "JPS";
+            this.JPS.Size = new System.Drawing.Size(61, 31);
+            this.JPS.TabIndex = 187;
+            this.JPS.Text = "JPS";
+            this.JPS.UseVisualStyleBackColor = false;
+            this.JPS.Click += new System.EventHandler(this.JPS_Click);
+            // 
+            // VIFF
+            // 
+            this.VIFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.VIFF.FlatAppearance.BorderSize = 0;
+            this.VIFF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.VIFF.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.VIFF.Location = new System.Drawing.Point(204, 114);
+            this.VIFF.Name = "VIFF";
+            this.VIFF.Size = new System.Drawing.Size(61, 31);
+            this.VIFF.TabIndex = 186;
+            this.VIFF.Text = "VIFF";
+            this.VIFF.UseVisualStyleBackColor = false;
+            this.VIFF.Click += new System.EventHandler(this.VIFF_Click);
+            // 
+            // PFM
+            // 
+            this.PFM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PFM.FlatAppearance.BorderSize = 0;
+            this.PFM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PFM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PFM.Location = new System.Drawing.Point(271, 114);
+            this.PFM.Name = "PFM";
+            this.PFM.Size = new System.Drawing.Size(61, 31);
+            this.PFM.TabIndex = 184;
+            this.PFM.Text = "PFM";
+            this.PFM.UseVisualStyleBackColor = false;
+            this.PFM.Click += new System.EventHandler(this.PFM_Click);
+            // 
+            // SGI
+            // 
+            this.SGI.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.SGI.FlatAppearance.BorderSize = 0;
+            this.SGI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SGI.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SGI.Location = new System.Drawing.Point(338, 114);
+            this.SGI.Name = "SGI";
+            this.SGI.Size = new System.Drawing.Size(61, 31);
+            this.SGI.TabIndex = 183;
+            this.SGI.Text = "SGI";
+            this.SGI.UseVisualStyleBackColor = false;
+            this.SGI.Click += new System.EventHandler(this.SGI_Click);
+            // 
+            // MNG
+            // 
+            this.MNG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.MNG.FlatAppearance.BorderSize = 0;
+            this.MNG.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MNG.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MNG.Location = new System.Drawing.Point(3, 151);
+            this.MNG.Name = "MNG";
+            this.MNG.Size = new System.Drawing.Size(61, 31);
+            this.MNG.TabIndex = 182;
+            this.MNG.Text = "MNG";
+            this.MNG.UseVisualStyleBackColor = false;
+            this.MNG.Click += new System.EventHandler(this.MNG_Click);
+            // 
+            // RGF
+            // 
+            this.RGF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.RGF.FlatAppearance.BorderSize = 0;
+            this.RGF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RGF.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RGF.Location = new System.Drawing.Point(70, 151);
+            this.RGF.Name = "RGF";
+            this.RGF.Size = new System.Drawing.Size(61, 31);
+            this.RGF.TabIndex = 181;
+            this.RGF.Text = "RGF";
+            this.RGF.UseVisualStyleBackColor = false;
+            this.RGF.Click += new System.EventHandler(this.RGF_Click);
+            // 
+            // PICT
+            // 
+            this.PICT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PICT.FlatAppearance.BorderSize = 0;
+            this.PICT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PICT.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PICT.Location = new System.Drawing.Point(137, 151);
+            this.PICT.Name = "PICT";
+            this.PICT.Size = new System.Drawing.Size(61, 31);
+            this.PICT.TabIndex = 180;
+            this.PICT.Text = "PICT";
+            this.PICT.UseVisualStyleBackColor = false;
+            this.PICT.Click += new System.EventHandler(this.PICT_Click);
+            // 
+            // PGX
+            // 
+            this.PGX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PGX.FlatAppearance.BorderSize = 0;
+            this.PGX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PGX.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PGX.Location = new System.Drawing.Point(204, 151);
+            this.PGX.Name = "PGX";
+            this.PGX.Size = new System.Drawing.Size(61, 31);
+            this.PGX.TabIndex = 179;
+            this.PGX.Text = "PGX";
+            this.PGX.UseVisualStyleBackColor = false;
+            this.PGX.Click += new System.EventHandler(this.PGX_Click);
+            // 
+            // YUV
+            // 
+            this.YUV.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.YUV.FlatAppearance.BorderSize = 0;
+            this.YUV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.YUV.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YUV.Location = new System.Drawing.Point(271, 151);
+            this.YUV.Name = "YUV";
+            this.YUV.Size = new System.Drawing.Size(61, 31);
+            this.YUV.TabIndex = 178;
+            this.YUV.Text = "YUV";
+            this.YUV.UseVisualStyleBackColor = false;
+            this.YUV.Click += new System.EventHandler(this.YUV_Click);
+            // 
+            // PAL
+            // 
+            this.PAL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PAL.FlatAppearance.BorderSize = 0;
+            this.PAL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PAL.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PAL.Location = new System.Drawing.Point(338, 151);
+            this.PAL.Name = "PAL";
+            this.PAL.Size = new System.Drawing.Size(61, 31);
+            this.PAL.TabIndex = 177;
+            this.PAL.Text = "PAL";
+            this.PAL.UseVisualStyleBackColor = false;
+            this.PAL.Click += new System.EventHandler(this.PAL_Click);
+            // 
+            // PCD
+            // 
+            this.PCD.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PCD.FlatAppearance.BorderSize = 0;
+            this.PCD.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PCD.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PCD.Location = new System.Drawing.Point(3, 188);
+            this.PCD.Name = "PCD";
+            this.PCD.Size = new System.Drawing.Size(61, 31);
+            this.PCD.TabIndex = 176;
+            this.PCD.Text = "PCD";
+            this.PCD.UseVisualStyleBackColor = false;
+            this.PCD.Click += new System.EventHandler(this.PCD_Click);
+            // 
+            // SIXEL
+            // 
+            this.SIXEL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.SIXEL.FlatAppearance.BorderSize = 0;
+            this.SIXEL.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SIXEL.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SIXEL.Location = new System.Drawing.Point(70, 188);
+            this.SIXEL.Name = "SIXEL";
+            this.SIXEL.Size = new System.Drawing.Size(61, 31);
+            this.SIXEL.TabIndex = 175;
+            this.SIXEL.Text = "SIXEL";
+            this.SIXEL.UseVisualStyleBackColor = false;
+            this.SIXEL.Click += new System.EventHandler(this.SIXEL_Click);
+            // 
+            // RAS
+            // 
+            this.RAS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.RAS.FlatAppearance.BorderSize = 0;
+            this.RAS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RAS.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RAS.Location = new System.Drawing.Point(137, 188);
+            this.RAS.Name = "RAS";
+            this.RAS.Size = new System.Drawing.Size(61, 31);
+            this.RAS.TabIndex = 174;
+            this.RAS.Text = "RAS";
+            this.RAS.UseVisualStyleBackColor = false;
+            this.RAS.Click += new System.EventHandler(this.RAS_Click);
+            // 
+            // G3
+            // 
+            this.G3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.G3.FlatAppearance.BorderSize = 0;
+            this.G3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.G3.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.G3.Location = new System.Drawing.Point(204, 188);
+            this.G3.Name = "G3";
+            this.G3.Size = new System.Drawing.Size(61, 31);
+            this.G3.TabIndex = 172;
+            this.G3.Text = "G3";
+            this.G3.UseVisualStyleBackColor = false;
+            this.G3.Click += new System.EventHandler(this.G3_Click);
+            // 
+            // JPE
+            // 
+            this.JPE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.JPE.FlatAppearance.BorderSize = 0;
+            this.JPE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.JPE.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JPE.Location = new System.Drawing.Point(271, 188);
+            this.JPE.Name = "JPE";
+            this.JPE.Size = new System.Drawing.Size(61, 31);
+            this.JPE.TabIndex = 171;
+            this.JPE.Text = "JPE";
+            this.JPE.UseVisualStyleBackColor = false;
+            this.JPE.Click += new System.EventHandler(this.JPE_Click);
+            // 
+            // PICON
+            // 
+            this.PICON.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PICON.FlatAppearance.BorderSize = 0;
+            this.PICON.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PICON.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PICON.Location = new System.Drawing.Point(338, 188);
+            this.PICON.Name = "PICON";
+            this.PICON.Size = new System.Drawing.Size(61, 31);
+            this.PICON.TabIndex = 170;
+            this.PICON.Text = "PICON";
+            this.PICON.UseVisualStyleBackColor = false;
+            this.PICON.Click += new System.EventHandler(this.PICON_Click);
+            // 
+            // PBM
+            // 
+            this.PBM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PBM.FlatAppearance.BorderSize = 0;
+            this.PBM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PBM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PBM.Location = new System.Drawing.Point(3, 225);
+            this.PBM.Name = "PBM";
+            this.PBM.Size = new System.Drawing.Size(61, 31);
+            this.PBM.TabIndex = 169;
+            this.PBM.Text = "PBM";
+            this.PBM.UseVisualStyleBackColor = false;
+            this.PBM.Click += new System.EventHandler(this.PBM_Click);
+            // 
+            // PDB
+            // 
+            this.PDB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PDB.FlatAppearance.BorderSize = 0;
+            this.PDB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PDB.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PDB.Location = new System.Drawing.Point(70, 225);
+            this.PDB.Name = "PDB";
+            this.PDB.Size = new System.Drawing.Size(61, 31);
+            this.PDB.TabIndex = 168;
+            this.PDB.Text = "PDB";
+            this.PDB.UseVisualStyleBackColor = false;
+            this.PDB.Click += new System.EventHandler(this.PDB_Click);
+            // 
+            // JP2
+            // 
+            this.JP2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.JP2.FlatAppearance.BorderSize = 0;
+            this.JP2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.JP2.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.JP2.Location = new System.Drawing.Point(137, 225);
+            this.JP2.Name = "JP2";
+            this.JP2.Size = new System.Drawing.Size(61, 31);
+            this.JP2.TabIndex = 167;
+            this.JP2.Text = "JP2";
+            this.JP2.UseVisualStyleBackColor = false;
+            this.JP2.Click += new System.EventHandler(this.JP2_Click);
+            // 
+            // PNM
+            // 
+            this.PNM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PNM.FlatAppearance.BorderSize = 0;
+            this.PNM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PNM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PNM.Location = new System.Drawing.Point(204, 225);
+            this.PNM.Name = "PNM";
+            this.PNM.Size = new System.Drawing.Size(61, 31);
+            this.PNM.TabIndex = 166;
+            this.PNM.Text = "PNM";
+            this.PNM.UseVisualStyleBackColor = false;
+            this.PNM.Click += new System.EventHandler(this.PNM_Click);
+            // 
+            // MAP
+            // 
+            this.MAP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.MAP.FlatAppearance.BorderSize = 0;
+            this.MAP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.MAP.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MAP.Location = new System.Drawing.Point(271, 225);
+            this.MAP.Name = "MAP";
+            this.MAP.Size = new System.Drawing.Size(61, 31);
+            this.MAP.TabIndex = 165;
+            this.MAP.Text = "MAP";
+            this.MAP.UseVisualStyleBackColor = false;
+            this.MAP.Click += new System.EventHandler(this.MAP_Click);
+            // 
+            // HEIF
+            // 
+            this.HEIF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.HEIF.FlatAppearance.BorderSize = 0;
+            this.HEIF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HEIF.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HEIF.Location = new System.Drawing.Point(338, 225);
+            this.HEIF.Name = "HEIF";
+            this.HEIF.Size = new System.Drawing.Size(61, 31);
+            this.HEIF.TabIndex = 163;
+            this.HEIF.Text = "HEIF";
+            this.HEIF.UseVisualStyleBackColor = false;
+            this.HEIF.Click += new System.EventHandler(this.HEIF_Click);
+            // 
+            // XBM
+            // 
+            this.XBM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.XBM.FlatAppearance.BorderSize = 0;
+            this.XBM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.XBM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XBM.Location = new System.Drawing.Point(3, 262);
+            this.XBM.Name = "XBM";
+            this.XBM.Size = new System.Drawing.Size(61, 31);
+            this.XBM.TabIndex = 162;
+            this.XBM.Text = "XBM";
+            this.XBM.UseVisualStyleBackColor = false;
+            this.XBM.Click += new System.EventHandler(this.XBM_Click);
+            // 
+            // RGBA
+            // 
+            this.RGBA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.RGBA.FlatAppearance.BorderSize = 0;
+            this.RGBA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RGBA.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RGBA.Location = new System.Drawing.Point(70, 262);
+            this.RGBA.Name = "RGBA";
+            this.RGBA.Size = new System.Drawing.Size(61, 31);
+            this.RGBA.TabIndex = 161;
+            this.RGBA.Text = "RGBA";
+            this.RGBA.UseVisualStyleBackColor = false;
+            this.RGBA.Click += new System.EventHandler(this.RGBA_Click);
+            // 
+            // WBMP
+            // 
+            this.WBMP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.WBMP.FlatAppearance.BorderSize = 0;
+            this.WBMP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.WBMP.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WBMP.Location = new System.Drawing.Point(137, 262);
+            this.WBMP.Name = "WBMP";
+            this.WBMP.Size = new System.Drawing.Size(61, 31);
+            this.WBMP.TabIndex = 160;
+            this.WBMP.Text = "WBMP";
+            this.WBMP.UseVisualStyleBackColor = false;
+            this.WBMP.Click += new System.EventHandler(this.WBMP_Click);
+            // 
+            // PCX
+            // 
+            this.PCX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PCX.FlatAppearance.BorderSize = 0;
+            this.PCX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PCX.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PCX.Location = new System.Drawing.Point(204, 262);
+            this.PCX.Name = "PCX";
+            this.PCX.Size = new System.Drawing.Size(61, 31);
+            this.PCX.TabIndex = 159;
+            this.PCX.Text = "PCX";
+            this.PCX.UseVisualStyleBackColor = false;
+            this.PCX.Click += new System.EventHandler(this.PCX_Click);
+            // 
+            // PPM
+            // 
+            this.PPM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PPM.FlatAppearance.BorderSize = 0;
+            this.PPM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PPM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PPM.Location = new System.Drawing.Point(271, 262);
+            this.PPM.Name = "PPM";
+            this.PPM.Size = new System.Drawing.Size(61, 31);
+            this.PPM.TabIndex = 158;
+            this.PPM.Text = "PPM";
+            this.PPM.UseVisualStyleBackColor = false;
+            this.PPM.Click += new System.EventHandler(this.PPM_Click);
+            // 
+            // AVIFF
+            // 
+            this.AVIFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.AVIFF.FlatAppearance.BorderSize = 0;
+            this.AVIFF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AVIFF.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AVIFF.Location = new System.Drawing.Point(338, 262);
+            this.AVIFF.Name = "AVIFF";
+            this.AVIFF.Size = new System.Drawing.Size(61, 31);
+            this.AVIFF.TabIndex = 157;
+            this.AVIFF.Text = "AVIF";
+            this.AVIFF.UseVisualStyleBackColor = false;
+            this.AVIFF.Click += new System.EventHandler(this.AVIFF_Click);
+            // 
+            // BPM
+            // 
+            this.BPM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.BPM.FlatAppearance.BorderSize = 0;
+            this.BPM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BPM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BPM.Location = new System.Drawing.Point(3, 299);
+            this.BPM.Name = "BPM";
+            this.BPM.Size = new System.Drawing.Size(61, 31);
+            this.BPM.TabIndex = 156;
+            this.BPM.Text = "BMP";
+            this.BPM.UseVisualStyleBackColor = false;
+            this.BPM.Click += new System.EventHandler(this.BPM_Click);
+            // 
+            // PGM
+            // 
+            this.PGM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.PGM.FlatAppearance.BorderSize = 0;
+            this.PGM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PGM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PGM.Location = new System.Drawing.Point(70, 299);
+            this.PGM.Name = "PGM";
+            this.PGM.Size = new System.Drawing.Size(61, 31);
+            this.PGM.TabIndex = 155;
+            this.PGM.Text = "PGM";
+            this.PGM.UseVisualStyleBackColor = false;
+            this.PGM.Click += new System.EventHandler(this.PGM_Click);
+            // 
+            // TGA
+            // 
+            this.TGA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.TGA.FlatAppearance.BorderSize = 0;
+            this.TGA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TGA.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TGA.Location = new System.Drawing.Point(137, 299);
+            this.TGA.Name = "TGA";
+            this.TGA.Size = new System.Drawing.Size(61, 31);
+            this.TGA.TabIndex = 154;
+            this.TGA.Text = "TGA";
+            this.TGA.UseVisualStyleBackColor = false;
+            this.TGA.Click += new System.EventHandler(this.TGA_Click);
+            // 
+            // DDS
+            // 
+            this.DDS.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.DDS.FlatAppearance.BorderSize = 0;
+            this.DDS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DDS.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DDS.Location = new System.Drawing.Point(204, 299);
+            this.DDS.Name = "DDS";
+            this.DDS.Size = new System.Drawing.Size(61, 31);
+            this.DDS.TabIndex = 153;
+            this.DDS.Text = "DDS";
+            this.DDS.UseVisualStyleBackColor = false;
+            this.DDS.Click += new System.EventHandler(this.DDS_Click);
+            // 
+            // EXR
+            // 
+            this.EXR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.EXR.FlatAppearance.BorderSize = 0;
+            this.EXR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.EXR.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EXR.Location = new System.Drawing.Point(271, 299);
+            this.EXR.Name = "EXR";
+            this.EXR.Size = new System.Drawing.Size(61, 31);
+            this.EXR.TabIndex = 152;
+            this.EXR.Text = "EXR";
+            this.EXR.UseVisualStyleBackColor = false;
+            this.EXR.Click += new System.EventHandler(this.EXR_Click);
+            // 
+            // TIFF
+            // 
+            this.TIFF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.TIFF.FlatAppearance.BorderSize = 0;
+            this.TIFF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TIFF.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TIFF.Location = new System.Drawing.Point(338, 299);
+            this.TIFF.Name = "TIFF";
+            this.TIFF.Size = new System.Drawing.Size(61, 31);
+            this.TIFF.TabIndex = 151;
+            this.TIFF.Text = "TIFF";
+            this.TIFF.UseVisualStyleBackColor = false;
+            this.TIFF.Click += new System.EventHandler(this.TIFF_Click);
+            // 
+            // XPM
+            // 
+            this.XPM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.XPM.FlatAppearance.BorderSize = 0;
+            this.XPM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.XPM.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.XPM.Location = new System.Drawing.Point(3, 336);
+            this.XPM.Name = "XPM";
+            this.XPM.Size = new System.Drawing.Size(61, 31);
+            this.XPM.TabIndex = 148;
+            this.XPM.Text = "XPM";
+            this.XPM.UseVisualStyleBackColor = false;
+            this.XPM.Click += new System.EventHandler(this.XPM_Click);
+            // 
+            // GIF
+            // 
+            this.GIF.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.GIF.FlatAppearance.BorderSize = 0;
+            this.GIF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.GIF.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GIF.Location = new System.Drawing.Point(70, 336);
+            this.GIF.Name = "GIF";
+            this.GIF.Size = new System.Drawing.Size(61, 31);
+            this.GIF.TabIndex = 146;
+            this.GIF.Text = "GIF";
+            this.GIF.UseVisualStyleBackColor = false;
+            this.GIF.Click += new System.EventHandler(this.GIF_Click);
+            // 
+            // WEBP
+            // 
+            this.WEBP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.WEBP.FlatAppearance.BorderSize = 0;
+            this.WEBP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.WEBP.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WEBP.Location = new System.Drawing.Point(137, 336);
+            this.WEBP.Name = "WEBP";
+            this.WEBP.Size = new System.Drawing.Size(61, 31);
+            this.WEBP.TabIndex = 145;
+            this.WEBP.Text = "WEBP";
+            this.WEBP.UseVisualStyleBackColor = false;
+            this.WEBP.Click += new System.EventHandler(this.WEBP_Click);
+            // 
+            // RGB
+            // 
+            this.RGB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.RGB.FlatAppearance.BorderSize = 0;
+            this.RGB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RGB.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RGB.Location = new System.Drawing.Point(204, 336);
+            this.RGB.Name = "RGB";
+            this.RGB.Size = new System.Drawing.Size(61, 31);
+            this.RGB.TabIndex = 143;
+            this.RGB.Text = "RGB";
+            this.RGB.UseVisualStyleBackColor = false;
+            this.RGB.Click += new System.EventHandler(this.RGB_Click);
+            // 
+            // CUR
+            // 
+            this.CUR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.CUR.FlatAppearance.BorderSize = 0;
+            this.CUR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CUR.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CUR.Location = new System.Drawing.Point(271, 336);
+            this.CUR.Name = "CUR";
+            this.CUR.Size = new System.Drawing.Size(61, 31);
+            this.CUR.TabIndex = 141;
+            this.CUR.Text = "CUR";
+            this.CUR.UseVisualStyleBackColor = false;
+            this.CUR.Click += new System.EventHandler(this.CUR_Click);
+            // 
+            // HEIC
+            // 
+            this.HEIC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.HEIC.FlatAppearance.BorderSize = 0;
+            this.HEIC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HEIC.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HEIC.Location = new System.Drawing.Point(338, 336);
+            this.HEIC.Name = "HEIC";
+            this.HEIC.Size = new System.Drawing.Size(61, 31);
+            this.HEIC.TabIndex = 140;
+            this.HEIC.Text = "HEIC";
+            this.HEIC.UseVisualStyleBackColor = false;
+            this.HEIC.Click += new System.EventHandler(this.HEIC_Click);
+            // 
+            // HDR
+            // 
+            this.HDR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.HDR.FlatAppearance.BorderSize = 0;
+            this.HDR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HDR.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HDR.Location = new System.Drawing.Point(3, 373);
+            this.HDR.Name = "HDR";
+            this.HDR.Size = new System.Drawing.Size(61, 31);
+            this.HDR.TabIndex = 142;
+            this.HDR.Text = "HDR";
+            this.HDR.UseVisualStyleBackColor = false;
+            this.HDR.Click += new System.EventHandler(this.HDR_Click);
+            // 
+            // ICO
+            // 
+            this.ICO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(56)))));
+            this.ICO.FlatAppearance.BorderSize = 0;
+            this.ICO.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ICO.Font = new System.Drawing.Font("RocknRoll One", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ICO.Location = new System.Drawing.Point(70, 373);
+            this.ICO.Name = "ICO";
+            this.ICO.Size = new System.Drawing.Size(61, 31);
+            this.ICO.TabIndex = 139;
+            this.ICO.Text = "ICO";
+            this.ICO.UseVisualStyleBackColor = false;
+            this.ICO.Click += new System.EventHandler(this.ICO_Click);
             // 
             // documentTablePanel
             // 
@@ -1818,6 +1661,119 @@
             this.button106.Text = "PS";
             this.button106.UseVisualStyleBackColor = false;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.btnImage);
+            this.flowLayoutPanel1.Controls.Add(this.btnDocument);
+            this.flowLayoutPanel1.Controls.Add(this.btnEbook);
+            this.flowLayoutPanel1.Controls.Add(this.btnVideo);
+            this.flowLayoutPanel1.Controls.Add(this.btnVector);
+            this.flowLayoutPanel1.Controls.Add(this.btnAudio);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.flowLayoutPanel1.ForeColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 23);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(149, 476);
+            this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // btnImage
+            // 
+            this.btnImage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnImage.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImage.Location = new System.Drawing.Point(3, 33);
+            this.btnImage.Name = "btnImage";
+            this.btnImage.Size = new System.Drawing.Size(146, 23);
+            this.btnImage.TabIndex = 0;
+            this.btnImage.Text = "Image";
+            this.btnImage.UseVisualStyleBackColor = true;
+            this.btnImage.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnDocument
+            // 
+            this.btnDocument.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDocument.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
+            this.btnDocument.Location = new System.Drawing.Point(3, 62);
+            this.btnDocument.Name = "btnDocument";
+            this.btnDocument.Size = new System.Drawing.Size(146, 23);
+            this.btnDocument.TabIndex = 1;
+            this.btnDocument.Text = "Document";
+            this.btnDocument.UseVisualStyleBackColor = true;
+            this.btnDocument.Click += new System.EventHandler(this.btnDocument_Click);
+            // 
+            // btnEbook
+            // 
+            this.btnEbook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEbook.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
+            this.btnEbook.Location = new System.Drawing.Point(3, 91);
+            this.btnEbook.Name = "btnEbook";
+            this.btnEbook.Size = new System.Drawing.Size(146, 23);
+            this.btnEbook.TabIndex = 2;
+            this.btnEbook.Text = "E-Book";
+            this.btnEbook.UseVisualStyleBackColor = true;
+            this.btnEbook.Click += new System.EventHandler(this.btnEbook_Click);
+            // 
+            // btnVideo
+            // 
+            this.btnVideo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVideo.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
+            this.btnVideo.Location = new System.Drawing.Point(3, 120);
+            this.btnVideo.Name = "btnVideo";
+            this.btnVideo.Size = new System.Drawing.Size(146, 23);
+            this.btnVideo.TabIndex = 3;
+            this.btnVideo.Text = "Video";
+            this.btnVideo.UseVisualStyleBackColor = true;
+            // 
+            // btnVector
+            // 
+            this.btnVector.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVector.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
+            this.btnVector.Location = new System.Drawing.Point(3, 149);
+            this.btnVector.Name = "btnVector";
+            this.btnVector.Size = new System.Drawing.Size(146, 23);
+            this.btnVector.TabIndex = 4;
+            this.btnVector.Text = "Vector";
+            this.btnVector.UseVisualStyleBackColor = true;
+            this.btnVector.Click += new System.EventHandler(this.btnVector_Click);
+            // 
+            // btnAudio
+            // 
+            this.btnAudio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAudio.Font = new System.Drawing.Font("RocknRoll One", 6.75F, System.Drawing.FontStyle.Bold);
+            this.btnAudio.Location = new System.Drawing.Point(3, 178);
+            this.btnAudio.Name = "btnAudio";
+            this.btnAudio.Size = new System.Drawing.Size(146, 23);
+            this.btnAudio.TabIndex = 5;
+            this.btnAudio.Text = "Audio";
+            this.btnAudio.UseVisualStyleBackColor = true;
+            // 
+            // btnCloseSF
+            // 
+            this.btnCloseSF.FlatAppearance.BorderSize = 0;
+            this.btnCloseSF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseSF.ForeColor = System.Drawing.Color.Transparent;
+            this.btnCloseSF.Image = global::FormatConverter.Properties.Resources.x2;
+            this.btnCloseSF.Location = new System.Drawing.Point(530, 0);
+            this.btnCloseSF.Name = "btnCloseSF";
+            this.btnCloseSF.Size = new System.Drawing.Size(47, 23);
+            this.btnCloseSF.TabIndex = 6;
+            this.btnCloseSF.UseVisualStyleBackColor = true;
+            this.btnCloseSF.Click += new System.EventHandler(this.btnCloseSF_Click);
+            // 
+            // searchTBox
+            // 
+            this.searchTBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(23)))));
+            this.searchTBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.searchTBox.Font = new System.Drawing.Font("RocknRoll One", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchTBox.ForeColor = System.Drawing.Color.White;
+            this.searchTBox.Location = new System.Drawing.Point(0, 0);
+            this.searchTBox.Name = "searchTBox";
+            this.searchTBox.Size = new System.Drawing.Size(577, 23);
+            this.searchTBox.TabIndex = 2;
+            this.searchTBox.Text = "Search...";
+            this.searchTBox.Enter += new System.EventHandler(this.searchTBox_Enter);
+            this.searchTBox.Leave += new System.EventHandler(this.searchTBox_Leave);
+            // 
             // SelectFormat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1832,12 +1788,12 @@
             this.Text = "SelectFormat";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.imageTablePanel.ResumeLayout(false);
             this.documentTablePanel.ResumeLayout(false);
             this.ebookTablePanel.ResumeLayout(false);
             this.vectorTablePanel.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1856,74 +1812,67 @@
         private System.Windows.Forms.Button btnCloseSF;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.FlowLayoutPanel imageTablePanel;
-        private System.Windows.Forms.Button button74;
-        private System.Windows.Forms.Button button73;
-        private System.Windows.Forms.Button button72;
-        private System.Windows.Forms.Button button71;
-        private System.Windows.Forms.Button button70;
-        private System.Windows.Forms.Button button69;
-        private System.Windows.Forms.Button button68;
-        private System.Windows.Forms.Button button67;
-        private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button65;
-        private System.Windows.Forms.Button button64;
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button62;
-        private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.Button button60;
-        private System.Windows.Forms.Button button59;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button PALM;
+        private System.Windows.Forms.Button MTV;
+        private System.Windows.Forms.Button PAM;
+        private System.Windows.Forms.Button OTB;
+        private System.Windows.Forms.Button HRZ;
+        private System.Windows.Forms.Button IPL;
+        private System.Windows.Forms.Button SUN;
+        private System.Windows.Forms.Button UYVY;
+        private System.Windows.Forms.Button XV;
+        private System.Windows.Forms.Button FTS;
+        private System.Windows.Forms.Button G4;
+        private System.Windows.Forms.Button PCT;
+        private System.Windows.Forms.Button FAX;
+        private System.Windows.Forms.Button SIX;
+        private System.Windows.Forms.Button RGBO;
+        private System.Windows.Forms.Button VIPS;
+        private System.Windows.Forms.Button JPS;
+        private System.Windows.Forms.Button VIFF;
+        private System.Windows.Forms.Button PFM;
+        private System.Windows.Forms.Button SGI;
+        private System.Windows.Forms.Button MNG;
+        private System.Windows.Forms.Button RGF;
+        private System.Windows.Forms.Button PICT;
+        private System.Windows.Forms.Button PGX;
+        private System.Windows.Forms.Button YUV;
+        private System.Windows.Forms.Button PAL;
+        private System.Windows.Forms.Button PCD;
+        private System.Windows.Forms.Button SIXEL;
+        private System.Windows.Forms.Button RAS;
+        private System.Windows.Forms.Button G3;
+        private System.Windows.Forms.Button JPE;
+        private System.Windows.Forms.Button PICON;
+        private System.Windows.Forms.Button PBM;
+        private System.Windows.Forms.Button PDB;
+        private System.Windows.Forms.Button JP2;
+        private System.Windows.Forms.Button PNM;
+        private System.Windows.Forms.Button MAP;
+        private System.Windows.Forms.Button HEIF;
+        private System.Windows.Forms.Button XBM;
+        private System.Windows.Forms.Button RGBA;
+        private System.Windows.Forms.Button WBMP;
+        private System.Windows.Forms.Button PCX;
+        private System.Windows.Forms.Button PPM;
+        private System.Windows.Forms.Button AVIFF;
+        private System.Windows.Forms.Button BPM;
+        private System.Windows.Forms.Button PGM;
+        private System.Windows.Forms.Button TGA;
+        private System.Windows.Forms.Button DDS;
+        private System.Windows.Forms.Button EXR;
+        private System.Windows.Forms.Button TIFF;
+        private System.Windows.Forms.Button XPM;
+        private System.Windows.Forms.Button PSD;
+        private System.Windows.Forms.Button GIF;
+        private System.Windows.Forms.Button WEBP;
+        private System.Windows.Forms.Button RGB;
+        private System.Windows.Forms.Button CUR;
+        private System.Windows.Forms.Button HEIC;
+        private System.Windows.Forms.Button HDR;
+        private System.Windows.Forms.Button JPG;
+        private System.Windows.Forms.Button ICO;
+        private System.Windows.Forms.Button SVG;
         private System.Windows.Forms.Button PNG;
         private System.Windows.Forms.FlowLayoutPanel documentTablePanel;
         private System.Windows.Forms.Button button1;

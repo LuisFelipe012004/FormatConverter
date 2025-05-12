@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\converter.cs" />
     <Compile Include="Class\swap.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
